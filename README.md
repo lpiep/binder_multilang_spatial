@@ -21,7 +21,7 @@ Modify the files in the `binder` sub-directory to specify required dependencies 
 **Important**: binder will *only* work for public repositories. If your repository is private, you will have to make it public in the repository settings before you can launch it in binder.
 
 ### R
- - modify the `binder/runtime.txt` file to specify which R date snapshot should be used (the [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) network keeps a daily snapshot)
+ - modify the `binder/runtime.txt` file to specify which R date snapshot should be used (r-<RVERSION>-<YYYY>-<MM>-<DD>)
  - modify the `binder/install.R` file to make sure all dependencies are specified. Dependencies can be from CRAN, bioconductor or GitHub. Since GitHub hosted libraries are not part of the MRAN snapshot, it is best to specify a commit or release tag to ensure that a compatible version of the package is installed in the binder.
 
 ### Python
