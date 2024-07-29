@@ -1,4 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - geospatial
+  - numpy
+  - pandas
+  - geopandas
