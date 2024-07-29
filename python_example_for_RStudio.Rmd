@@ -45,6 +45,7 @@ curve['x'] = 1 + np.sin(2 * np.pi * curve['t'])
 ```{r}
 # access python variable via reticulate - requires RStudio 1.2+ to work interactively
 library(reticulate)
+reticulate::use_condaenv('env')
 py$curve
 ```
 

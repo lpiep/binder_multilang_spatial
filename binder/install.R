@@ -38,7 +38,7 @@ install.packages( # Rocker Geospatial Packages
         'classInt',
         'deldir',
         'gstat',
-        'hdf5r',
+        #'hdf5r',
         'lidR',
         'mapdata',
         #'maptools',
@@ -58,3 +58,5 @@ install.packages( # Rocker Geospatial Packages
         'geosphere'
     )
 )
+
+source('reticulate_setup.R')
