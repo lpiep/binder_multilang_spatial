@@ -8,7 +8,6 @@ libglu1-mesa-dev
 libhdf4-alt-dev 
 libhdf5-dev 
 libjq-dev 
-liblwgeom-dev 
 libpq-dev 
 libproj-dev 
 libprotobuf-dev 
